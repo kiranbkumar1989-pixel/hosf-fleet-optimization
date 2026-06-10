@@ -1,0 +1,4 @@
+dataset,vehicles_replaced,capital_investment_usd,budget_utilization_pct,annual_savings_usd,payback_months,co2_reduction_mt_per_year,service_continuity_pct,mip_gap_pct,solve_time_seconds,solver,constraints_satisfied,decision_confidence_pct,final_payback_phase2b_months,final_co2_reduction_phase2b
+D1_Municipal,8,259084,51.8,397447,40.9,486.32,95.2,0.0,1.24,HiGHS,15,97.3,13.4,612.8
+D2_Logistics,22,847200,70.6,892100,28.7,1142.8,91.4,0.0,3.87,HiGHS,15,96.8,14.1,1428.6
+D3_Transit,58,2983400,85.2,2341800,18.4,2847.4,88.7,0.0,9.42,HiGHS,15,97.6,12.8,3621.4

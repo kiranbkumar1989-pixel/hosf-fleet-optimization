@@ -1,0 +1,13 @@
+vehicle_id,selection_frequency_pct,coefficient_of_variation,decision_robustness_index,robustness_tier,recommended_action,mean_cost_saving_usd,mean_co2_reduction_mt
+MM_039,100.0,0.075,96.2,Tier 1 - Structurally Robust,Immediate Replacement,46500,82.46
+MM_043,99.6,0.082,94.8,Tier 1 - Structurally Robust,Immediate Replacement,32100,34.12
+MM_003,99.4,0.089,93.6,Tier 1 - Structurally Robust,Immediate Replacement,38400,61.44
+MM_017,98.7,0.124,88.4,Tier 1 - Structurally Robust,Immediate Replacement,28700,42.18
+MM_047,98.1,0.131,87.3,Tier 1 - Structurally Robust,Immediate Replacement,31200,35.91
+MM_028,95.2,0.143,83.1,Tier 1 - Structurally Robust,Immediate Replacement,26800,29.44
+MM_051,94.8,0.148,82.4,Tier 1 - Structurally Robust,Immediate Replacement,24100,27.82
+MM_008,89.1,0.189,73.2,Tier 2 - Conditionally Robust,Conditional Replacement,21300,24.11
+MM_031,87.6,0.214,70.1,Tier 2 - Conditionally Robust,Conditional Replacement,19800,22.08
+MM_044,82.3,0.247,65.8,Tier 2 - Conditionally Robust,Conditional Replacement,17600,19.34
+MM_012,78.4,0.278,60.2,Tier 3 - Fragile,Defer - Monitor,15200,16.82
+MM_007,71.2,0.312,54.8,Tier 3 - Fragile,Defer - Monitor,13100,14.21

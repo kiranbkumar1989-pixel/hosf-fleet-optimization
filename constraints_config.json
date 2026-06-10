@@ -1,0 +1,80 @@
+{
+  "D1_municipal": {
+    "budget_usd": 500000,
+    "min_replacements": 5,
+    "max_replacements": 20,
+    "co2_reduction_target_mt_per_year": 30,
+    "service_continuity_min_pct": 75,
+    "charging_infrastructure_capacity": 10,
+    "maintenance_budget_usd": 450000,
+    "objective_weights": {
+      "cost_minimization": 0.25,
+      "emissions_reduction": 0.25,
+      "safety_improvement": 0.25,
+      "reliability_maximization": 0.25
+    },
+    "monte_carlo": {
+      "iterations": 1000,
+      "fuel_price_range_pct": 30,
+      "ev_cost_range_pct": 15,
+      "utilization_range_pct": 20,
+      "grid_carbon_range_pct": 25,
+      "policy_incentive_range": [
+        0,
+        100
+      ]
+    }
+  },
+  "D2_logistics": {
+    "budget_usd": 1200000,
+    "min_replacements": 10,
+    "max_replacements": 40,
+    "co2_reduction_target_mt_per_year": 72,
+    "service_continuity_min_pct": 75,
+    "charging_infrastructure_capacity": 25,
+    "maintenance_budget_usd": 1100000,
+    "objective_weights": {
+      "cost_minimization": 0.3,
+      "emissions_reduction": 0.25,
+      "safety_improvement": 0.2,
+      "reliability_maximization": 0.25
+    },
+    "monte_carlo": {
+      "iterations": 1000,
+      "fuel_price_range_pct": 30,
+      "ev_cost_range_pct": 15,
+      "utilization_range_pct": 20,
+      "grid_carbon_range_pct": 25,
+      "policy_incentive_range": [
+        0,
+        100
+      ]
+    }
+  },
+  "D3_transit": {
+    "budget_usd": 3500000,
+    "min_replacements": 20,
+    "max_replacements": 70,
+    "co2_reduction_target_mt_per_year": 210,
+    "service_continuity_min_pct": 80,
+    "charging_infrastructure_capacity": 50,
+    "maintenance_budget_usd": 3000000,
+    "objective_weights": {
+      "cost_minimization": 0.2,
+      "emissions_reduction": 0.4,
+      "safety_improvement": 0.25,
+      "reliability_maximization": 0.15
+    },
+    "monte_carlo": {
+      "iterations": 1000,
+      "fuel_price_range_pct": 30,
+      "ev_cost_range_pct": 15,
+      "utilization_range_pct": 20,
+      "grid_carbon_range_pct": 25,
+      "policy_incentive_range": [
+        0,
+        100
+      ]
+    }
+  }
+}
